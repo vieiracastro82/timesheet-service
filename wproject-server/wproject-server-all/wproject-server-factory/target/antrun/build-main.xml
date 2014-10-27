@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <delete>
+    <fileset dir="C:\Users\thiago@callink.com.br\Documents\workspace-sts-3.6.1.RELEASE\wpattern-40484\sample projects\java\wpattern-wproject\wproject-server\wproject-server-all\wproject-server-factory/target/${project.name}-0.0.1-SNAPSHOT/WEB-INF">
+      <exclude name="lib"/>
+    </fileset>
+  </delete>
+</target>
+</project>
