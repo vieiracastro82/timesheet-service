@@ -15,6 +15,10 @@
 		<class>org.wproject.server.utils.entities.SituacaoAtividadeEntity</class>
 		<class>org.wproject.server.utils.entities.TipoAtividadeEntity</class>
 		<class>org.wproject.server.utils.entities.ResponsavelAtividadeEntity</class>
+		<class>org.wproject.server.utils.entities.TrabalhoRealizadoEntity</class>
+		<class>org.wproject.server.utils.entities.LogAtividadeEntity</class>
+		<class>org.wproject.server.utils.entities.ProjetoCentroCustoEntity</class>
+		<class>org.wproject.server.utils.entities.ParametrosEntity</class>
 		<properties>
 			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" />
 		</properties>

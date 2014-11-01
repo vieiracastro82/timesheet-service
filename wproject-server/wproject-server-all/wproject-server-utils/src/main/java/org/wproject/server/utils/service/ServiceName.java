@@ -24,4 +24,12 @@ public class ServiceName {
 
 	public static final String RESPONSAVELATIVIDADE_SERVICE = "/service/responsavelatividade";
 
+	public static final String TRABALHOREALIZADO_SERVICE = "/service/trabalhorealizado";
+
+	public static final String LOGATIVIDADE_SERVICE = "/service/logatividade";
+
+	public static final String PROJETOCENTROCUSTO_SERVICE = "/service/projetocentrocusto";
+
+	public static final String PARAMETROS_SERVICE = "/service/parametros";
+
 }
