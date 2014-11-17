@@ -28,12 +28,20 @@
 			<artifactId>wproject-server-utils</artifactId>
 		</dependency>
 
+		<!-- SERVLET-API -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>3.0-alpha-1</version>
+		</dependency>
+
 		<!-- SPRING WEB -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-web</artifactId>
 		</dependency>
 	</dependencies>
+
 
 	<build>
 		<resources>

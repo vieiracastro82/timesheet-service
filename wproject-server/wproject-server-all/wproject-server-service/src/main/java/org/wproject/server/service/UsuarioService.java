@@ -20,4 +20,9 @@ public class UsuarioService extends AbstractGenericService<UsuarioEntity, Long> 
 		return this.usuarioRepository;
 	}
 
+	@Override
+	public UsuarioEntity findById(Long id) {
+		return this.usuarioRepository.findOne(id);
+	}
+
 }

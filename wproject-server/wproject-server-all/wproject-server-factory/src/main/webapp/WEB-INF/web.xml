@@ -30,8 +30,18 @@
 	<listener>
 		<listener-class>org.jboss.resteasy.plugins.spring.SpringContextLoaderListener</listener-class>
 	</listener>
+	
+	<filter>
+		<filter-name>myFilter</filter-name>
+		<filter-class>org.wproject.server.filter.SimpleCORSFilter</filter-class>
+	</filter>
 
-	<servlet>
+	<filter-mapping>
+    	<filter-name>myFilter</filter-name>
+    	<url-pattern>/*</url-pattern>
+  	</filter-mapping>
+  
+  	<servlet>
 		<servlet-name>Resteasy</servlet-name>
 		<servlet-class>org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher</servlet-class>
 	</servlet>

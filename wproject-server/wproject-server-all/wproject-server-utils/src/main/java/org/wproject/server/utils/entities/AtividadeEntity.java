@@ -1,15 +1,20 @@
 package org.wproject.server.utils.entities;
 
 import java.util.Date;
+import java.util.List;
 
 import javax.persistence.AttributeOverride;
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.xml.bind.annotation.XmlRootElement;
 
+import org.codehaus.jackson.annotate.JsonManagedReference;
 import org.wproject.server.utils.BaseEntity;
 
 @Entity
@@ -43,18 +48,20 @@ public class AtividadeEntity extends BaseEntity<Long> {
 	@ManyToOne(optional=false)
 	@JoinColumn(name = "idTipoAtividade")
 	private TipoAtividadeEntity tipoAtividade;
-
 	
+	@OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER, mappedBy = "atividade")
+	@JsonManagedReference
+	private List<ResponsavelAtividadeEntity> responsavelAtividade;
 	
 	public AtividadeEntity() {
 	}
 
 	public AtividadeEntity(String atividade, String descricao,
-			Integer esforcoPrevisto, Date dataPrevista,
-			String solicitante, Integer idReferenciaExterna,
-			Integer idTipoAtividade, ProjetoEntity projeto, 
-			SituacaoAtividadeEntity situacaoAtividade, TipoAtividadeEntity tipoAtividade) {
-		super();
+			Integer esforcoPrevisto, Date dataPrevista, String solicitante,
+			Integer idReferenciaExterna, ProjetoEntity projeto,
+			SituacaoAtividadeEntity situacaoAtividade,
+			TipoAtividadeEntity tipoAtividade,
+			List<ResponsavelAtividadeEntity> responsavelAtividade) {
 		this.atividade = atividade;
 		this.descricao = descricao;
 		this.esforcoPrevisto = esforcoPrevisto;
@@ -64,6 +71,7 @@ public class AtividadeEntity extends BaseEntity<Long> {
 		this.projeto = projeto;
 		this.situacaoAtividade = situacaoAtividade;
 		this.tipoAtividade = tipoAtividade;
+		this.responsavelAtividade = responsavelAtividade;
 	}
 
 	public String getAtividade() {
@@ -136,6 +144,15 @@ public class AtividadeEntity extends BaseEntity<Long> {
 
 	public void setTipoAtividade(TipoAtividadeEntity tipoAtividade) {
 		this.tipoAtividade = tipoAtividade;
+	}
+
+	public List<ResponsavelAtividadeEntity> getResponsavelAtividade() {
+		return responsavelAtividade;
+	}
+
+	public void setResponsavelAtividade(
+			List<ResponsavelAtividadeEntity> responsavelAtividade) {
+		this.responsavelAtividade = responsavelAtividade;
 	}
 
 

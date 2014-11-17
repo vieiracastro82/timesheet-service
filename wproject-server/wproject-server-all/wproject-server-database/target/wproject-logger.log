@@ -1,151 +1,366 @@
-28-10-2014 22:28:33,249; [main]; DEBUG; org.wproject.server.test.database.repositories.AtividadeRepositoryTest;  - [org.wproject.server.utils.entities.AtividadeEntity@96d5cf[
+16-11-2014 22:15:05,282; [main]; DEBUG; org.wproject.server.test.database.repositories.AtividadeRepositoryTest;  - [org.wproject.server.utils.entities.AtividadeEntity@3a68531b[
   atividade=Criar plano do TCC
   descricao=Criar o plano de como será executado este projeto, incluindo parte técnica e teória
-  esforcoPrevisto=960
+  esforcoPrevisto=3000
   dataPrevista=2014-10-28 16:00:00.0
-  solicitante=Lilian R. Mendes Paiva
+  solicitante=<null>
   idReferenciaExterna=<null>
-  projeto=org.wproject.server.utils.entities.ProjetoEntity@8d58eff[
+  projeto=org.wproject.server.utils.entities.ProjetoEntity@1207457c[
   projeto=TCC Trabalho de conclusão de curso
   idReferenciaExterna=<null>
-  dataCriacao=2014-10-27 20:55:25.0
+  dataCriacao=2014-11-09 02:20:15.0
   situacao=EM EXECUÇÃO
   percentualAdicionalDesvioHora=<null>
-  usarDesvioHoraPadrao=<null>
+  usarDesvioHoraPadrao=true
   id=1
 ]
-  situacaoAtividade=org.wproject.server.utils.entities.SituacaoAtividadeEntity@5a094258[
-  situacaoAtividade=EM FILA
-  id=1
+  situacaoAtividade=org.wproject.server.utils.entities.SituacaoAtividadeEntity@49d7572c[
+  situacaoAtividade=EXECUÇÃO
+  id=2
 ]
-  tipoAtividade=org.wproject.server.utils.entities.TipoAtividadeEntity@3b5c812c[
+  tipoAtividade=org.wproject.server.utils.entities.TipoAtividadeEntity@4e59eb42[
   tipoAtividade=OPERACIONAL
   id=3
 ]
+  responsavelAtividade=[org.wproject.server.utils.entities.ResponsavelAtividadeEntity@3cc8a10[
+  usuario=org.wproject.server.utils.entities.UsuarioEntity@6def748b[
+  usuario=admin
+  email=admin@timesheet.com
+  senha=admin
+  dataCriacao=2014-11-08 22:47:57.0
+  id=1
+]
+  atividade=org.wproject.server.utils.entities.AtividadeEntity@3a68531b
+  dataCriacao=2014-10-27 20:55:26.0
+  esforcoIndividualPrevisto=960
+  id=1
+], org.wproject.server.utils.entities.ResponsavelAtividadeEntity@54b58608[
+  usuario=org.wproject.server.utils.entities.UsuarioEntity@697c2262[
+  usuario=thiago
+  email=thiago@timesheet.com
+  senha=thiago
+  dataCriacao=2014-11-08 22:43:31.0
+  id=37
+]
+  atividade=org.wproject.server.utils.entities.AtividadeEntity@3a68531b
+  dataCriacao=2014-11-01 20:07:55.0
+  esforcoIndividualPrevisto=360
+  id=2
+], org.wproject.server.utils.entities.ResponsavelAtividadeEntity@751574c6[
+  usuario=org.wproject.server.utils.entities.UsuarioEntity@5972a2aa[
+  usuario=karla
+  email=karla@timesheet.com
+  senha=karla
+  dataCriacao=2014-11-08 22:43:14.0
+  id=39
+]
+  atividade=org.wproject.server.utils.entities.AtividadeEntity@3a68531b
+  dataCriacao=2014-11-05 09:48:32.0
+  esforcoIndividualPrevisto=0
+  id=3
+]]
+  id=1
+], org.wproject.server.utils.entities.AtividadeEntity@25536e21[
+  atividade=teste
+  descricao=teste
+  esforcoPrevisto=4800
+  dataPrevista=2014-11-09 22:00:00.0
+  solicitante=<null>
+  idReferenciaExterna=50
+  projeto=org.wproject.server.utils.entities.ProjetoEntity@1207457c[
+  projeto=TCC Trabalho de conclusão de curso
+  idReferenciaExterna=<null>
+  dataCriacao=2014-11-09 02:20:15.0
+  situacao=EM EXECUÇÃO
+  percentualAdicionalDesvioHora=<null>
+  usarDesvioHoraPadrao=true
+  id=1
+]
+  situacaoAtividade=org.wproject.server.utils.entities.SituacaoAtividadeEntity@39b75a89[
+  situacaoAtividade=EM FILA
+  id=1
+]
+  tipoAtividade=org.wproject.server.utils.entities.TipoAtividadeEntity@60cb201b[
+  tipoAtividade=DEFEITO
+  id=1
+]
+  responsavelAtividade=[]
+  id=2
+], org.wproject.server.utils.entities.AtividadeEntity@8634bac[
+  atividade=Teste 2
+  descricao=Descricao
+  esforcoPrevisto=1200
+  dataPrevista=2014-11-16 00:00:00.0
+  solicitante=<null>
+  idReferenciaExterna=<null>
+  projeto=org.wproject.server.utils.entities.ProjetoEntity@62309814[
+  projeto=TIMESHEET Interface
+  idReferenciaExterna=48
+  dataCriacao=2014-11-09 02:20:27.0
+  situacao=EM EXECUÇÃO
+  percentualAdicionalDesvioHora=<null>
+  usarDesvioHoraPadrao=true
+  id=2
+]
+  situacaoAtividade=org.wproject.server.utils.entities.SituacaoAtividadeEntity@39b75a89[
+  situacaoAtividade=EM FILA
+  id=1
+]
+  tipoAtividade=org.wproject.server.utils.entities.TipoAtividadeEntity@60cb201b[
+  tipoAtividade=DEFEITO
+  id=1
+]
+  responsavelAtividade=[]
+  id=3
+]]
+16-11-2014 22:15:05,396; [main]; DEBUG; org.wproject.server.test.database.repositories.CategoryRepositoryTest;  - [org.wproject.server.utils.entities.CategoryEntity@4091847b[
+  categoryName=Teste
+  description=Teste findByOne
+  picture=<null>
   id=1
 ]]
-28-10-2014 22:28:33,359; [main]; DEBUG; org.wproject.server.test.database.repositories.CategoryRepositoryTest;  - []
-28-10-2014 22:28:33,389; [main]; DEBUG; org.wproject.server.test.database.repositories.CentroCustoRepositoryTest;  - [org.wproject.server.utils.entities.CentroCustoEntity@13e70a08[
+16-11-2014 22:15:05,438; [main]; DEBUG; org.wproject.server.test.database.repositories.CentroCustoRepositoryTest;  - [org.wproject.server.utils.entities.CentroCustoEntity@122b7d0a[
   centroCusto=PESSOAL
   idReferenciaExterna=<null>
   dataCriacao=2014-10-27 20:55:25.0
   id=1
+], org.wproject.server.utils.entities.CentroCustoEntity@651e24d7[
+  centroCusto=FACULDADE
+  idReferenciaExterna=<null>
+  dataCriacao=2014-11-09 02:22:28.0
+  id=2
+], org.wproject.server.utils.entities.CentroCustoEntity@1e04d31e[
+  centroCusto=TRABALHO
+  idReferenciaExterna=<null>
+  dataCriacao=2014-11-16 22:06:20.0
+  id=3
 ]]
-28-10-2014 22:28:33,469; [main]; DEBUG; org.wproject.server.test.database.repositories.LogAtividadeRepositoryTest;  - [org.wproject.server.utils.entities.LogAtividadeEntity@342882af[
+16-11-2014 22:15:05,487; [main]; DEBUG; org.wproject.server.test.database.repositories.LogAtividadeRepositoryTest;  - [org.wproject.server.utils.entities.LogAtividadeEntity@d77a75e[
   dataCriacao=2014-10-27 20:55:26.0
   acao=ATIVIDADE ADICIONADA
-  atividadeAfetada=org.wproject.server.utils.entities.AtividadeEntity@bd5cfc[
+  atividadeAfetada=org.wproject.server.utils.entities.AtividadeEntity@62694ea1[
   atividade=Criar plano do TCC
   descricao=Criar o plano de como será executado este projeto, incluindo parte técnica e teória
-  esforcoPrevisto=960
+  esforcoPrevisto=3000
   dataPrevista=2014-10-28 16:00:00.0
-  solicitante=Lilian R. Mendes Paiva
+  solicitante=<null>
   idReferenciaExterna=<null>
-  projeto=org.wproject.server.utils.entities.ProjetoEntity@d463d94[
+  projeto=org.wproject.server.utils.entities.ProjetoEntity@6791fbc2[
   projeto=TCC Trabalho de conclusão de curso
   idReferenciaExterna=<null>
-  dataCriacao=2014-10-27 20:55:25.0
+  dataCriacao=2014-11-09 02:20:15.0
   situacao=EM EXECUÇÃO
   percentualAdicionalDesvioHora=<null>
-  usarDesvioHoraPadrao=<null>
+  usarDesvioHoraPadrao=true
   id=1
 ]
-  situacaoAtividade=org.wproject.server.utils.entities.SituacaoAtividadeEntity@7e74c65a[
-  situacaoAtividade=EM FILA
-  id=1
+  situacaoAtividade=org.wproject.server.utils.entities.SituacaoAtividadeEntity@65d4dad5[
+  situacaoAtividade=EXECUÇÃO
+  id=2
 ]
-  tipoAtividade=org.wproject.server.utils.entities.TipoAtividadeEntity@248a7f92[
+  tipoAtividade=org.wproject.server.utils.entities.TipoAtividadeEntity@796b0a2d[
   tipoAtividade=OPERACIONAL
   id=3
 ]
-  id=1
-]
-  usuarioResponsavel=org.wproject.server.utils.entities.UsuarioEntity@624f2534[
+  responsavelAtividade=[org.wproject.server.utils.entities.ResponsavelAtividadeEntity@2127b2ad[
+  usuario=org.wproject.server.utils.entities.UsuarioEntity@35438cdc[
   usuario=admin
   email=admin@timesheet.com
   senha=admin
-  dataCriacao=2014-10-27 20:55:25.0
+  dataCriacao=2014-11-08 22:47:57.0
+  id=1
+]
+  atividade=org.wproject.server.utils.entities.AtividadeEntity@62694ea1
+  dataCriacao=2014-10-27 20:55:26.0
+  esforcoIndividualPrevisto=960
+  id=1
+], org.wproject.server.utils.entities.ResponsavelAtividadeEntity@6fa95e80[
+  usuario=org.wproject.server.utils.entities.UsuarioEntity@587b5ec5[
+  usuario=thiago
+  email=thiago@timesheet.com
+  senha=thiago
+  dataCriacao=2014-11-08 22:43:31.0
+  id=37
+]
+  atividade=org.wproject.server.utils.entities.AtividadeEntity@62694ea1
+  dataCriacao=2014-11-01 20:07:55.0
+  esforcoIndividualPrevisto=360
+  id=2
+], org.wproject.server.utils.entities.ResponsavelAtividadeEntity@b8b04e5[
+  usuario=org.wproject.server.utils.entities.UsuarioEntity@53ee5c4e[
+  usuario=karla
+  email=karla@timesheet.com
+  senha=karla
+  dataCriacao=2014-11-08 22:43:14.0
+  id=39
+]
+  atividade=org.wproject.server.utils.entities.AtividadeEntity@62694ea1
+  dataCriacao=2014-11-05 09:48:32.0
+  esforcoIndividualPrevisto=0
+  id=3
+]]
+  id=1
+]
+  usuarioResponsavel=org.wproject.server.utils.entities.UsuarioEntity@35438cdc[
+  usuario=admin
+  email=admin@timesheet.com
+  senha=admin
+  dataCriacao=2014-11-08 22:47:57.0
   id=1
 ]
   id=1
-], org.wproject.server.utils.entities.LogAtividadeEntity@4f9bc9e9[
+], org.wproject.server.utils.entities.LogAtividadeEntity@2a8d133a[
   dataCriacao=2014-10-27 20:55:26.0
   acao=ADICIONAR HORAS
-  atividadeAfetada=org.wproject.server.utils.entities.AtividadeEntity@bd5cfc[
+  atividadeAfetada=org.wproject.server.utils.entities.AtividadeEntity@62694ea1[
   atividade=Criar plano do TCC
   descricao=Criar o plano de como será executado este projeto, incluindo parte técnica e teória
-  esforcoPrevisto=960
+  esforcoPrevisto=3000
   dataPrevista=2014-10-28 16:00:00.0
-  solicitante=Lilian R. Mendes Paiva
+  solicitante=<null>
   idReferenciaExterna=<null>
-  projeto=org.wproject.server.utils.entities.ProjetoEntity@d463d94[
+  projeto=org.wproject.server.utils.entities.ProjetoEntity@6791fbc2[
   projeto=TCC Trabalho de conclusão de curso
   idReferenciaExterna=<null>
-  dataCriacao=2014-10-27 20:55:25.0
+  dataCriacao=2014-11-09 02:20:15.0
   situacao=EM EXECUÇÃO
   percentualAdicionalDesvioHora=<null>
-  usarDesvioHoraPadrao=<null>
+  usarDesvioHoraPadrao=true
   id=1
 ]
-  situacaoAtividade=org.wproject.server.utils.entities.SituacaoAtividadeEntity@7e74c65a[
-  situacaoAtividade=EM FILA
-  id=1
+  situacaoAtividade=org.wproject.server.utils.entities.SituacaoAtividadeEntity@65d4dad5[
+  situacaoAtividade=EXECUÇÃO
+  id=2
 ]
-  tipoAtividade=org.wproject.server.utils.entities.TipoAtividadeEntity@248a7f92[
+  tipoAtividade=org.wproject.server.utils.entities.TipoAtividadeEntity@796b0a2d[
   tipoAtividade=OPERACIONAL
   id=3
 ]
-  id=1
-]
-  usuarioResponsavel=org.wproject.server.utils.entities.UsuarioEntity@624f2534[
+  responsavelAtividade=[org.wproject.server.utils.entities.ResponsavelAtividadeEntity@2127b2ad[
+  usuario=org.wproject.server.utils.entities.UsuarioEntity@35438cdc[
   usuario=admin
   email=admin@timesheet.com
   senha=admin
-  dataCriacao=2014-10-27 20:55:25.0
+  dataCriacao=2014-11-08 22:47:57.0
+  id=1
+]
+  atividade=org.wproject.server.utils.entities.AtividadeEntity@62694ea1
+  dataCriacao=2014-10-27 20:55:26.0
+  esforcoIndividualPrevisto=960
+  id=1
+], org.wproject.server.utils.entities.ResponsavelAtividadeEntity@6fa95e80[
+  usuario=org.wproject.server.utils.entities.UsuarioEntity@587b5ec5[
+  usuario=thiago
+  email=thiago@timesheet.com
+  senha=thiago
+  dataCriacao=2014-11-08 22:43:31.0
+  id=37
+]
+  atividade=org.wproject.server.utils.entities.AtividadeEntity@62694ea1
+  dataCriacao=2014-11-01 20:07:55.0
+  esforcoIndividualPrevisto=360
+  id=2
+], org.wproject.server.utils.entities.ResponsavelAtividadeEntity@b8b04e5[
+  usuario=org.wproject.server.utils.entities.UsuarioEntity@53ee5c4e[
+  usuario=karla
+  email=karla@timesheet.com
+  senha=karla
+  dataCriacao=2014-11-08 22:43:14.0
+  id=39
+]
+  atividade=org.wproject.server.utils.entities.AtividadeEntity@62694ea1
+  dataCriacao=2014-11-05 09:48:32.0
+  esforcoIndividualPrevisto=0
+  id=3
+]]
+  id=1
+]
+  usuarioResponsavel=org.wproject.server.utils.entities.UsuarioEntity@35438cdc[
+  usuario=admin
+  email=admin@timesheet.com
+  senha=admin
+  dataCriacao=2014-11-08 22:47:57.0
   id=1
 ]
   id=2
-], org.wproject.server.utils.entities.LogAtividadeEntity@7ce508d3[
+], org.wproject.server.utils.entities.LogAtividadeEntity@13e95aa9[
   dataCriacao=2014-10-27 20:55:26.0
   acao=ATRIBUINDO RESPONSAVEL [ID:1]
-  atividadeAfetada=org.wproject.server.utils.entities.AtividadeEntity@bd5cfc[
+  atividadeAfetada=org.wproject.server.utils.entities.AtividadeEntity@62694ea1[
   atividade=Criar plano do TCC
   descricao=Criar o plano de como será executado este projeto, incluindo parte técnica e teória
-  esforcoPrevisto=960
+  esforcoPrevisto=3000
   dataPrevista=2014-10-28 16:00:00.0
-  solicitante=Lilian R. Mendes Paiva
+  solicitante=<null>
   idReferenciaExterna=<null>
-  projeto=org.wproject.server.utils.entities.ProjetoEntity@d463d94[
+  projeto=org.wproject.server.utils.entities.ProjetoEntity@6791fbc2[
   projeto=TCC Trabalho de conclusão de curso
   idReferenciaExterna=<null>
-  dataCriacao=2014-10-27 20:55:25.0
+  dataCriacao=2014-11-09 02:20:15.0
   situacao=EM EXECUÇÃO
   percentualAdicionalDesvioHora=<null>
-  usarDesvioHoraPadrao=<null>
+  usarDesvioHoraPadrao=true
   id=1
 ]
-  situacaoAtividade=org.wproject.server.utils.entities.SituacaoAtividadeEntity@7e74c65a[
-  situacaoAtividade=EM FILA
-  id=1
+  situacaoAtividade=org.wproject.server.utils.entities.SituacaoAtividadeEntity@65d4dad5[
+  situacaoAtividade=EXECUÇÃO
+  id=2
 ]
-  tipoAtividade=org.wproject.server.utils.entities.TipoAtividadeEntity@248a7f92[
+  tipoAtividade=org.wproject.server.utils.entities.TipoAtividadeEntity@796b0a2d[
   tipoAtividade=OPERACIONAL
   id=3
 ]
-  id=1
-]
-  usuarioResponsavel=org.wproject.server.utils.entities.UsuarioEntity@624f2534[
+  responsavelAtividade=[org.wproject.server.utils.entities.ResponsavelAtividadeEntity@2127b2ad[
+  usuario=org.wproject.server.utils.entities.UsuarioEntity@35438cdc[
   usuario=admin
   email=admin@timesheet.com
   senha=admin
-  dataCriacao=2014-10-27 20:55:25.0
+  dataCriacao=2014-11-08 22:47:57.0
+  id=1
+]
+  atividade=org.wproject.server.utils.entities.AtividadeEntity@62694ea1
+  dataCriacao=2014-10-27 20:55:26.0
+  esforcoIndividualPrevisto=960
+  id=1
+], org.wproject.server.utils.entities.ResponsavelAtividadeEntity@6fa95e80[
+  usuario=org.wproject.server.utils.entities.UsuarioEntity@587b5ec5[
+  usuario=thiago
+  email=thiago@timesheet.com
+  senha=thiago
+  dataCriacao=2014-11-08 22:43:31.0
+  id=37
+]
+  atividade=org.wproject.server.utils.entities.AtividadeEntity@62694ea1
+  dataCriacao=2014-11-01 20:07:55.0
+  esforcoIndividualPrevisto=360
+  id=2
+], org.wproject.server.utils.entities.ResponsavelAtividadeEntity@b8b04e5[
+  usuario=org.wproject.server.utils.entities.UsuarioEntity@53ee5c4e[
+  usuario=karla
+  email=karla@timesheet.com
+  senha=karla
+  dataCriacao=2014-11-08 22:43:14.0
+  id=39
+]
+  atividade=org.wproject.server.utils.entities.AtividadeEntity@62694ea1
+  dataCriacao=2014-11-05 09:48:32.0
+  esforcoIndividualPrevisto=0
+  id=3
+]]
+  id=1
+]
+  usuarioResponsavel=org.wproject.server.utils.entities.UsuarioEntity@35438cdc[
+  usuario=admin
+  email=admin@timesheet.com
+  senha=admin
+  dataCriacao=2014-11-08 22:47:57.0
   id=1
 ]
   id=3
 ]]
-28-10-2014 22:28:33,489; [main]; DEBUG; org.wproject.server.test.database.repositories.OrderDetailRepositoryTest;  - []
-28-10-2014 22:28:33,559; [main]; DEBUG; org.wproject.server.test.database.repositories.OrderRepositoryTest;  - []
-28-10-2014 22:28:33,579; [main]; DEBUG; org.wproject.server.test.database.repositories.ParametrosRepositoryTest;  - [org.wproject.server.utils.entities.ParametrosEntity@8801cab[
+16-11-2014 22:15:05,525; [main]; DEBUG; org.wproject.server.test.database.repositories.OrderDetailRepositoryTest;  - []
+16-11-2014 22:15:05,553; [main]; DEBUG; org.wproject.server.test.database.repositories.OrderRepositoryTest;  - []
+16-11-2014 22:15:05,582; [main]; DEBUG; org.wproject.server.test.database.repositories.ParametrosRepositoryTest;  - [org.wproject.server.utils.entities.ParametrosEntity@491db3cc[
   dataCriacao=2014-10-28 22:19:09.0
   limiteTentativasSenha=5
   percentualAdicionalDesvioAtividadeHora=30
@@ -153,20 +368,20 @@
   diasToleranciaAtrasoLancamentos=7
   id=1
 ]]
-28-10-2014 22:28:33,609; [main]; DEBUG; org.wproject.server.test.database.repositories.ProductRepositoryTest;  - []
-28-10-2014 22:28:33,649; [main]; DEBUG; org.wproject.server.test.database.repositories.ProjetoCentroCustoRepositoryTest;  - [org.wproject.server.utils.entities.ProjetoCentroCustoEntity@33f85208[
+16-11-2014 22:15:05,611; [main]; DEBUG; org.wproject.server.test.database.repositories.ProductRepositoryTest;  - []
+16-11-2014 22:15:05,647; [main]; DEBUG; org.wproject.server.test.database.repositories.ProjetoCentroCustoRepositoryTest;  - [org.wproject.server.utils.entities.ProjetoCentroCustoEntity@2ce49e21[
   dataCriacao=2014-10-28 22:12:07.0
-  id=org.wproject.server.utils.entities.keys.ProjetoCentroCustoKeyEntity@48e10ee0[
-  projeto=org.wproject.server.utils.entities.ProjetoEntity@71a79ffb[
+  id=org.wproject.server.utils.entities.keys.ProjetoCentroCustoKeyEntity@548a0db9[
+  projeto=org.wproject.server.utils.entities.ProjetoEntity@6eeb967b[
   projeto=TCC Trabalho de conclusão de curso
   idReferenciaExterna=<null>
-  dataCriacao=2014-10-27 20:55:25.0
+  dataCriacao=2014-11-09 02:20:15.0
   situacao=EM EXECUÇÃO
   percentualAdicionalDesvioHora=<null>
-  usarDesvioHoraPadrao=<null>
+  usarDesvioHoraPadrao=true
   id=1
 ]
-  centroCusto=org.wproject.server.utils.entities.CentroCustoEntity@2bf3e108[
+  centroCusto=org.wproject.server.utils.entities.CentroCustoEntity@262b58c9[
   centroCusto=PESSOAL
   idReferenciaExterna=<null>
   dataCriacao=2014-10-27 20:55:25.0
@@ -174,108 +389,346 @@
 ]
 ]
 ]]
-28-10-2014 22:28:33,669; [main]; DEBUG; org.wproject.server.test.database.repositories.ProjetoRepositoryTest;  - [org.wproject.server.utils.entities.ProjetoEntity@5c35d5da[
+16-11-2014 22:15:05,672; [main]; DEBUG; org.wproject.server.test.database.repositories.ProjetoRepositoryTest;  - [org.wproject.server.utils.entities.ProjetoEntity@6890f7c5[
   projeto=TCC Trabalho de conclusão de curso
   idReferenciaExterna=<null>
-  dataCriacao=2014-10-27 20:55:25.0
+  dataCriacao=2014-11-09 02:20:15.0
   situacao=EM EXECUÇÃO
   percentualAdicionalDesvioHora=<null>
-  usarDesvioHoraPadrao=<null>
+  usarDesvioHoraPadrao=true
   id=1
+], org.wproject.server.utils.entities.ProjetoEntity@57adc25[
+  projeto=TIMESHEET Interface
+  idReferenciaExterna=48
+  dataCriacao=2014-11-09 02:20:27.0
+  situacao=EM EXECUÇÃO
+  percentualAdicionalDesvioHora=<null>
+  usarDesvioHoraPadrao=true
+  id=2
+], org.wproject.server.utils.entities.ProjetoEntity@450b03f2[
+  projeto=Projeto Interface
+  idReferenciaExterna=<null>
+  dataCriacao=2014-11-16 22:02:09.0
+  situacao=1
+  percentualAdicionalDesvioHora=1
+  usarDesvioHoraPadrao=false
+  id=9
 ]]
-28-10-2014 22:28:33,699; [main]; DEBUG; org.wproject.server.test.database.repositories.ResponsavelAtividadeRepositoryTest;  - [org.wproject.server.utils.entities.ResponsavelAtividadeEntity@4d62a96e[
-  usuario=org.wproject.server.utils.entities.UsuarioEntity@59e8d980[
+16-11-2014 22:15:05,709; [main]; DEBUG; org.wproject.server.test.database.repositories.ResponsavelAtividadeRepositoryTest;  - [org.wproject.server.utils.entities.ResponsavelAtividadeEntity@701fa0f2[
+  usuario=org.wproject.server.utils.entities.UsuarioEntity@5dfcbd65[
   usuario=admin
   email=admin@timesheet.com
   senha=admin
-  dataCriacao=2014-10-27 20:55:25.0
+  dataCriacao=2014-11-08 22:47:57.0
   id=1
 ]
-  atividade=org.wproject.server.utils.entities.AtividadeEntity@ae1c3e5[
+  atividade=org.wproject.server.utils.entities.AtividadeEntity@4b3d2eb[
   atividade=Criar plano do TCC
   descricao=Criar o plano de como será executado este projeto, incluindo parte técnica e teória
-  esforcoPrevisto=960
+  esforcoPrevisto=3000
   dataPrevista=2014-10-28 16:00:00.0
-  solicitante=Lilian R. Mendes Paiva
+  solicitante=<null>
   idReferenciaExterna=<null>
-  projeto=org.wproject.server.utils.entities.ProjetoEntity@7a9290de[
+  projeto=org.wproject.server.utils.entities.ProjetoEntity@5e2b133f[
   projeto=TCC Trabalho de conclusão de curso
   idReferenciaExterna=<null>
-  dataCriacao=2014-10-27 20:55:25.0
+  dataCriacao=2014-11-09 02:20:15.0
   situacao=EM EXECUÇÃO
   percentualAdicionalDesvioHora=<null>
-  usarDesvioHoraPadrao=<null>
+  usarDesvioHoraPadrao=true
   id=1
 ]
-  situacaoAtividade=org.wproject.server.utils.entities.SituacaoAtividadeEntity@2c651db0[
-  situacaoAtividade=EM FILA
-  id=1
+  situacaoAtividade=org.wproject.server.utils.entities.SituacaoAtividadeEntity@7bf66217[
+  situacaoAtividade=EXECUÇÃO
+  id=2
 ]
-  tipoAtividade=org.wproject.server.utils.entities.TipoAtividadeEntity@22802495[
+  tipoAtividade=org.wproject.server.utils.entities.TipoAtividadeEntity@6ca21395[
   tipoAtividade=OPERACIONAL
   id=3
 ]
+  responsavelAtividade=[org.wproject.server.utils.entities.ResponsavelAtividadeEntity@701fa0f2[
+  usuario=org.wproject.server.utils.entities.UsuarioEntity@5dfcbd65[
+  usuario=admin
+  email=admin@timesheet.com
+  senha=admin
+  dataCriacao=2014-11-08 22:47:57.0
+  id=1
+]
+  atividade=org.wproject.server.utils.entities.AtividadeEntity@4b3d2eb
+  dataCriacao=2014-10-27 20:55:26.0
+  esforcoIndividualPrevisto=960
+  id=1
+], org.wproject.server.utils.entities.ResponsavelAtividadeEntity@2c7fa960[
+  usuario=org.wproject.server.utils.entities.UsuarioEntity@39dc44b6[
+  usuario=thiago
+  email=thiago@timesheet.com
+  senha=thiago
+  dataCriacao=2014-11-08 22:43:31.0
+  id=37
+]
+  atividade=org.wproject.server.utils.entities.AtividadeEntity@4b3d2eb
+  dataCriacao=2014-11-01 20:07:55.0
+  esforcoIndividualPrevisto=360
+  id=2
+], org.wproject.server.utils.entities.ResponsavelAtividadeEntity@7148f472[
+  usuario=org.wproject.server.utils.entities.UsuarioEntity@2c232667[
+  usuario=karla
+  email=karla@timesheet.com
+  senha=karla
+  dataCriacao=2014-11-08 22:43:14.0
+  id=39
+]
+  atividade=org.wproject.server.utils.entities.AtividadeEntity@4b3d2eb
+  dataCriacao=2014-11-05 09:48:32.0
+  esforcoIndividualPrevisto=0
+  id=3
+]]
   id=1
 ]
   dataCriacao=2014-10-27 20:55:26.0
   esforcoIndividualPrevisto=960
   id=1
-]]
-28-10-2014 22:28:33,759; [main]; DEBUG; org.wproject.server.test.database.repositories.SituacaoAtividadeRepositoryTest;  - [org.wproject.server.utils.entities.SituacaoAtividadeEntity@116f5d6b[
-  situacaoAtividade=EM FILA
-  id=1
-], org.wproject.server.utils.entities.SituacaoAtividadeEntity@265e24be[
-  situacaoAtividade=EXECUÇÃO
-  id=2
-], org.wproject.server.utils.entities.SituacaoAtividadeEntity@6ebe499f[
-  situacaoAtividade=PARADA
-  id=3
-], org.wproject.server.utils.entities.SituacaoAtividadeEntity@ed39e86[
-  situacaoAtividade=CONCLUIDA
-  id=4
-]]
-28-10-2014 22:28:33,779; [main]; DEBUG; org.wproject.server.test.database.repositories.TipoAtividadeRepositoryTest;  - [org.wproject.server.utils.entities.TipoAtividadeEntity@54f5ef22[
-  tipoAtividade=DEFEITO
-  id=1
-], org.wproject.server.utils.entities.TipoAtividadeEntity@5e26ccc1[
-  tipoAtividade=MELHORIA
-  id=2
-], org.wproject.server.utils.entities.TipoAtividadeEntity@454cc331[
-  tipoAtividade=OPERACIONAL
-  id=3
-]]
-28-10-2014 22:28:33,819; [main]; DEBUG; org.wproject.server.test.database.repositories.TrabalhoRealizadoRepositoryTest;  - [org.wproject.server.utils.entities.TrabalhoRealizadoEntity@5c8e1215[
-  atividade=org.wproject.server.utils.entities.AtividadeEntity@17260b38[
+], org.wproject.server.utils.entities.ResponsavelAtividadeEntity@2c7fa960[
+  usuario=org.wproject.server.utils.entities.UsuarioEntity@39dc44b6[
+  usuario=thiago
+  email=thiago@timesheet.com
+  senha=thiago
+  dataCriacao=2014-11-08 22:43:31.0
+  id=37
+]
+  atividade=org.wproject.server.utils.entities.AtividadeEntity@4b3d2eb[
   atividade=Criar plano do TCC
   descricao=Criar o plano de como será executado este projeto, incluindo parte técnica e teória
-  esforcoPrevisto=960
+  esforcoPrevisto=3000
   dataPrevista=2014-10-28 16:00:00.0
-  solicitante=Lilian R. Mendes Paiva
+  solicitante=<null>
   idReferenciaExterna=<null>
-  projeto=org.wproject.server.utils.entities.ProjetoEntity@7b85cd76[
+  projeto=org.wproject.server.utils.entities.ProjetoEntity@5e2b133f[
   projeto=TCC Trabalho de conclusão de curso
   idReferenciaExterna=<null>
-  dataCriacao=2014-10-27 20:55:25.0
+  dataCriacao=2014-11-09 02:20:15.0
   situacao=EM EXECUÇÃO
   percentualAdicionalDesvioHora=<null>
-  usarDesvioHoraPadrao=<null>
+  usarDesvioHoraPadrao=true
   id=1
 ]
-  situacaoAtividade=org.wproject.server.utils.entities.SituacaoAtividadeEntity@d743d55[
-  situacaoAtividade=EM FILA
-  id=1
+  situacaoAtividade=org.wproject.server.utils.entities.SituacaoAtividadeEntity@7bf66217[
+  situacaoAtividade=EXECUÇÃO
+  id=2
 ]
-  tipoAtividade=org.wproject.server.utils.entities.TipoAtividadeEntity@4a669e59[
+  tipoAtividade=org.wproject.server.utils.entities.TipoAtividadeEntity@6ca21395[
   tipoAtividade=OPERACIONAL
   id=3
 ]
-  id=1
-]
-  usuario=org.wproject.server.utils.entities.UsuarioEntity@454ee288[
+  responsavelAtividade=[org.wproject.server.utils.entities.ResponsavelAtividadeEntity@701fa0f2[
+  usuario=org.wproject.server.utils.entities.UsuarioEntity@5dfcbd65[
   usuario=admin
   email=admin@timesheet.com
   senha=admin
-  dataCriacao=2014-10-27 20:55:25.0
+  dataCriacao=2014-11-08 22:47:57.0
+  id=1
+]
+  atividade=org.wproject.server.utils.entities.AtividadeEntity@4b3d2eb
+  dataCriacao=2014-10-27 20:55:26.0
+  esforcoIndividualPrevisto=960
+  id=1
+], org.wproject.server.utils.entities.ResponsavelAtividadeEntity@2c7fa960[
+  usuario=org.wproject.server.utils.entities.UsuarioEntity@39dc44b6[
+  usuario=thiago
+  email=thiago@timesheet.com
+  senha=thiago
+  dataCriacao=2014-11-08 22:43:31.0
+  id=37
+]
+  atividade=org.wproject.server.utils.entities.AtividadeEntity@4b3d2eb
+  dataCriacao=2014-11-01 20:07:55.0
+  esforcoIndividualPrevisto=360
+  id=2
+], org.wproject.server.utils.entities.ResponsavelAtividadeEntity@7148f472[
+  usuario=org.wproject.server.utils.entities.UsuarioEntity@2c232667[
+  usuario=karla
+  email=karla@timesheet.com
+  senha=karla
+  dataCriacao=2014-11-08 22:43:14.0
+  id=39
+]
+  atividade=org.wproject.server.utils.entities.AtividadeEntity@4b3d2eb
+  dataCriacao=2014-11-05 09:48:32.0
+  esforcoIndividualPrevisto=0
+  id=3
+]]
+  id=1
+]
+  dataCriacao=2014-11-01 20:07:55.0
+  esforcoIndividualPrevisto=360
+  id=2
+], org.wproject.server.utils.entities.ResponsavelAtividadeEntity@7148f472[
+  usuario=org.wproject.server.utils.entities.UsuarioEntity@2c232667[
+  usuario=karla
+  email=karla@timesheet.com
+  senha=karla
+  dataCriacao=2014-11-08 22:43:14.0
+  id=39
+]
+  atividade=org.wproject.server.utils.entities.AtividadeEntity@4b3d2eb[
+  atividade=Criar plano do TCC
+  descricao=Criar o plano de como será executado este projeto, incluindo parte técnica e teória
+  esforcoPrevisto=3000
+  dataPrevista=2014-10-28 16:00:00.0
+  solicitante=<null>
+  idReferenciaExterna=<null>
+  projeto=org.wproject.server.utils.entities.ProjetoEntity@5e2b133f[
+  projeto=TCC Trabalho de conclusão de curso
+  idReferenciaExterna=<null>
+  dataCriacao=2014-11-09 02:20:15.0
+  situacao=EM EXECUÇÃO
+  percentualAdicionalDesvioHora=<null>
+  usarDesvioHoraPadrao=true
+  id=1
+]
+  situacaoAtividade=org.wproject.server.utils.entities.SituacaoAtividadeEntity@7bf66217[
+  situacaoAtividade=EXECUÇÃO
+  id=2
+]
+  tipoAtividade=org.wproject.server.utils.entities.TipoAtividadeEntity@6ca21395[
+  tipoAtividade=OPERACIONAL
+  id=3
+]
+  responsavelAtividade=[org.wproject.server.utils.entities.ResponsavelAtividadeEntity@701fa0f2[
+  usuario=org.wproject.server.utils.entities.UsuarioEntity@5dfcbd65[
+  usuario=admin
+  email=admin@timesheet.com
+  senha=admin
+  dataCriacao=2014-11-08 22:47:57.0
+  id=1
+]
+  atividade=org.wproject.server.utils.entities.AtividadeEntity@4b3d2eb
+  dataCriacao=2014-10-27 20:55:26.0
+  esforcoIndividualPrevisto=960
+  id=1
+], org.wproject.server.utils.entities.ResponsavelAtividadeEntity@2c7fa960[
+  usuario=org.wproject.server.utils.entities.UsuarioEntity@39dc44b6[
+  usuario=thiago
+  email=thiago@timesheet.com
+  senha=thiago
+  dataCriacao=2014-11-08 22:43:31.0
+  id=37
+]
+  atividade=org.wproject.server.utils.entities.AtividadeEntity@4b3d2eb
+  dataCriacao=2014-11-01 20:07:55.0
+  esforcoIndividualPrevisto=360
+  id=2
+], org.wproject.server.utils.entities.ResponsavelAtividadeEntity@7148f472[
+  usuario=org.wproject.server.utils.entities.UsuarioEntity@2c232667[
+  usuario=karla
+  email=karla@timesheet.com
+  senha=karla
+  dataCriacao=2014-11-08 22:43:14.0
+  id=39
+]
+  atividade=org.wproject.server.utils.entities.AtividadeEntity@4b3d2eb
+  dataCriacao=2014-11-05 09:48:32.0
+  esforcoIndividualPrevisto=0
+  id=3
+]]
+  id=1
+]
+  dataCriacao=2014-11-05 09:48:32.0
+  esforcoIndividualPrevisto=0
+  id=3
+]]
+16-11-2014 22:15:05,742; [main]; DEBUG; org.wproject.server.test.database.repositories.SituacaoAtividadeRepositoryTest;  - [org.wproject.server.utils.entities.SituacaoAtividadeEntity@1dd7cb7e[
+  situacaoAtividade=EM FILA
+  id=1
+], org.wproject.server.utils.entities.SituacaoAtividadeEntity@4270cc80[
+  situacaoAtividade=EXECUÇÃO
+  id=2
+], org.wproject.server.utils.entities.SituacaoAtividadeEntity@7b820993[
+  situacaoAtividade=PARADA
+  id=3
+], org.wproject.server.utils.entities.SituacaoAtividadeEntity@1642d13e[
+  situacaoAtividade=CONCLUIDA
+  id=4
+]]
+16-11-2014 22:15:05,771; [main]; DEBUG; org.wproject.server.test.database.repositories.TipoAtividadeRepositoryTest;  - [org.wproject.server.utils.entities.TipoAtividadeEntity@5d78424c[
+  tipoAtividade=DEFEITO
+  id=1
+], org.wproject.server.utils.entities.TipoAtividadeEntity@248bb85[
+  tipoAtividade=MELHORIA
+  id=2
+], org.wproject.server.utils.entities.TipoAtividadeEntity@750f19ee[
+  tipoAtividade=OPERACIONAL
+  id=3
+]]
+16-11-2014 22:15:05,806; [main]; DEBUG; org.wproject.server.test.database.repositories.TrabalhoRealizadoRepositoryTest;  - [org.wproject.server.utils.entities.TrabalhoRealizadoEntity@799a37b9[
+  atividade=org.wproject.server.utils.entities.AtividadeEntity@6402ff64[
+  atividade=Criar plano do TCC
+  descricao=Criar o plano de como será executado este projeto, incluindo parte técnica e teória
+  esforcoPrevisto=3000
+  dataPrevista=2014-10-28 16:00:00.0
+  solicitante=<null>
+  idReferenciaExterna=<null>
+  projeto=org.wproject.server.utils.entities.ProjetoEntity@424ab04d[
+  projeto=TCC Trabalho de conclusão de curso
+  idReferenciaExterna=<null>
+  dataCriacao=2014-11-09 02:20:15.0
+  situacao=EM EXECUÇÃO
+  percentualAdicionalDesvioHora=<null>
+  usarDesvioHoraPadrao=true
+  id=1
+]
+  situacaoAtividade=org.wproject.server.utils.entities.SituacaoAtividadeEntity@78e551cb[
+  situacaoAtividade=EXECUÇÃO
+  id=2
+]
+  tipoAtividade=org.wproject.server.utils.entities.TipoAtividadeEntity@175d246f[
+  tipoAtividade=OPERACIONAL
+  id=3
+]
+  responsavelAtividade=[org.wproject.server.utils.entities.ResponsavelAtividadeEntity@357cb13b[
+  usuario=org.wproject.server.utils.entities.UsuarioEntity@d57b3ec[
+  usuario=admin
+  email=admin@timesheet.com
+  senha=admin
+  dataCriacao=2014-11-08 22:47:57.0
+  id=1
+]
+  atividade=org.wproject.server.utils.entities.AtividadeEntity@6402ff64
+  dataCriacao=2014-10-27 20:55:26.0
+  esforcoIndividualPrevisto=960
+  id=1
+], org.wproject.server.utils.entities.ResponsavelAtividadeEntity@cd3188[
+  usuario=org.wproject.server.utils.entities.UsuarioEntity@1f6ed821[
+  usuario=thiago
+  email=thiago@timesheet.com
+  senha=thiago
+  dataCriacao=2014-11-08 22:43:31.0
+  id=37
+]
+  atividade=org.wproject.server.utils.entities.AtividadeEntity@6402ff64
+  dataCriacao=2014-11-01 20:07:55.0
+  esforcoIndividualPrevisto=360
+  id=2
+], org.wproject.server.utils.entities.ResponsavelAtividadeEntity@262f6ea6[
+  usuario=org.wproject.server.utils.entities.UsuarioEntity@740967df[
+  usuario=karla
+  email=karla@timesheet.com
+  senha=karla
+  dataCriacao=2014-11-08 22:43:14.0
+  id=39
+]
+  atividade=org.wproject.server.utils.entities.AtividadeEntity@6402ff64
+  dataCriacao=2014-11-05 09:48:32.0
+  esforcoIndividualPrevisto=0
+  id=3
+]]
+  id=1
+]
+  usuario=org.wproject.server.utils.entities.UsuarioEntity@d57b3ec[
+  usuario=admin
+  email=admin@timesheet.com
+  senha=admin
+  dataCriacao=2014-11-08 22:47:57.0
   id=1
 ]
   dataHoraLancamento=2014-10-27 20:55:25.0
@@ -285,10 +738,34 @@
   observacoes=Estamos apenas fazendo uma carga na tabela para teste.
   id=1
 ]]
-28-10-2014 22:28:33,839; [main]; DEBUG; org.wproject.server.test.database.repositories.UsuarioRepositoryTest;  - [org.wproject.server.utils.entities.UsuarioEntity@288d1600[
+16-11-2014 22:15:05,837; [main]; DEBUG; org.wproject.server.test.database.repositories.UsuarioRepositoryTest;  - [org.wproject.server.utils.entities.UsuarioEntity@4b65bb0c[
   usuario=admin
   email=admin@timesheet.com
   senha=admin
-  dataCriacao=2014-10-27 20:55:25.0
+  dataCriacao=2014-11-08 22:47:57.0
   id=1
+], org.wproject.server.utils.entities.UsuarioEntity@3db3780[
+  usuario=thiago
+  email=thiago@timesheet.com
+  senha=thiago
+  dataCriacao=2014-11-08 22:43:31.0
+  id=37
+], org.wproject.server.utils.entities.UsuarioEntity@3d85fdbe[
+  usuario=karla
+  email=karla@timesheet.com
+  senha=karla
+  dataCriacao=2014-11-08 22:43:14.0
+  id=39
+], org.wproject.server.utils.entities.UsuarioEntity@27d5e480[
+  usuario=junior
+  email=junior@timesheet.com
+  senha=junior
+  dataCriacao=2014-11-11 10:02:05.0
+  id=40
+], org.wproject.server.utils.entities.UsuarioEntity@4b8ca3ee[
+  usuario=wender
+  email=wender@timesheet.com
+  senha=wender
+  dataCriacao=2014-11-16 22:01:51.0
+  id=41
 ]]
